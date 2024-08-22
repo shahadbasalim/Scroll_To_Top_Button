@@ -1,0 +1,19 @@
+body {
+    height: 5000px;
+}
+.up {
+    position: fixed;
+    bottom: 10px;
+    right: -30px;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.up.show {
+    right: 10px;
+}
